@@ -10,7 +10,7 @@ public class Calculator {
         }
 
         for (int i = figures.length / 2; i < figures.length; i++) {
-            figures[i] = figureSupplier.getDefautFigure();
+            figures[i] = figureSupplier.getDefaultFigure();
         }
 
         for (Figure figure : figures) {

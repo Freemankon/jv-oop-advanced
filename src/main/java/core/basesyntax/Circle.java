@@ -4,7 +4,7 @@ public class Circle extends Figure {
 
     private final double radius;
 
-    public Circle(Color randomColor, double randomRadius) {
+    public Circle(String randomColor, double randomRadius) {
         super(randomColor);
         this.radius = randomRadius;
     }

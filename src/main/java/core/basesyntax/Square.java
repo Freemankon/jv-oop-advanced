@@ -4,7 +4,7 @@ public class Square extends Figure {
 
     private final double side;
 
-    public Square(Color randomColor, double randomSide) {
+    public Square(String randomColor, double randomSide) {
         super(randomColor);
         this.side = randomSide;
     }

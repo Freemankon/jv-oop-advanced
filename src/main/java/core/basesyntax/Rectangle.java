@@ -5,9 +5,9 @@ public class Rectangle extends Figure {
     private final double width;
     private final double height;
 
-    public Rectangle(Color randomColor, double randomWight, double randomHeight) {
+    public Rectangle(String randomColor, double randomWidth, double randomHeight) {
         super(randomColor);
-        this.width = randomWight;
+        this.width = randomWidth;
         this.height = randomHeight;
     }
 
